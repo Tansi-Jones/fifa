@@ -1,0 +1,20 @@
+write code for a games tournament landing page in html css and js
+the page will be simple one screen only scrolling one level. it would have a text in the middle
+of the screen saying "Welcome, are you the Very Best?" and 2 buttons underneath one that says sign up here
+this button pops up a form with the fields Name, team handle/username, contact info (whatsapp)
+the second will have a link imbeded to join a telegram group
+there should also be a counter that shows the number of slots remaining beginning at 32 and with each
+registration it reduces till it reaches 0 when it will say registration closed for this event and it will
+pop up another form that has the fields, Name, games interested in(this is a checklist with fifa, COD, PUBG, MK11 on it)
+and contact information (whatsapp)
+
+
+
+below the first section, like a paralax effect, there should be a tournament bracket which randomly puts in those who registered 
+for the tournament and keeps updating until it is done. let the countdown be here just above it
+
+for the background colour of the page use this #232946
+for the text, Welcome, use pixel style text them space grotesk fro the rest
+
+
+make it look good 

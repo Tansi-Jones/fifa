@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Games Tournament Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome, are you the Very Best?</h1>
+    <div class="buttons">
+      <button id="signup-btn">Sign Up Here</button>
+      <a href="https://t.me/joinchat/xxxxxxxxxxxxx">Join Our Telegram Group</a>
+    </div>
+    <div id="signup-form" class="hidden">
+      <h2>Registration Form</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="team">Team Handle/Username:</label>
+        <input type="text" id="team" required>
+        <label for="contact">Contact Info (WhatsApp):</label>
+        <input type="tel" id="contact" required>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="slots-remaining">
+      <p>Slots Remaining:</p>
+      <p id="counter">32</p>
+    </div>
+    <div id="closed-form" class="hidden">
+      <h2>Registration Closed</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="games">Games Interested In:</label>
+        <div id="games">
+          <input type="checkbox" id="fifa" name="fifa" value="fifa">
+          <label for="fifa">FIFA</label>
+          <input type="checkbox" id="cod" name="cod" value="cod">
+          <label for="cod">COD</label>
+          <input type="checkbox" id="pubg" name="pubg" value="pubg">
+          <label for="pubg">PUBG</label>
+          <input type="checkbox" id="mk11" name="mk11" value="mk11">
+          <label for="mk11">MK11</label>
+        </div>
+        <label for="contact">Contact Info (WhatsApp):</label>
+        <input type="tel" id="contact" required>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="countdown">
+      <p>Registration Closes in:</p>
+      <p id="countdown-timer"></p>
+    </div>
+    <div id="tournament-bracket">
+      <h2>Tournament Bracket</h2>
+      <div id="bracket"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
